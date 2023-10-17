@@ -9,7 +9,7 @@ on:
 jobs:
           
   reusable_workflow_job:
-    uses: pinkesh-ceq/Resusable-called-wf.github/workflows/blank.yml@main
+    uses: pinkesh-ceq/Resusable-called-wf/.github/workflows/blank.yml@main
     with:
       name: pinkesh
     secrets:
